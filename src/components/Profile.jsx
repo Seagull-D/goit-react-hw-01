@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types';
 import css from "./Profile.module.css"
-console.log(css)
+
 export default function Profile({ name, tag, location, image, stats: { followers, views, likes } }) {
   return (
     <div className={css.profileContainer}>

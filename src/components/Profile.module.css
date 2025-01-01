@@ -1,0 +1,83 @@
+.profileContainer{
+   display: flex; 
+flex-direction: column;
+width: 400px;
+max-height: 500px ;
+margin: auto;
+border: 2px solid rgb(20, 20, 20);
+border-radius: 20px;
+justify-content: space-between;
+align-items: center;
+overflow: hidden;
+padding-top: 20px;
+
+}
+.profileInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileImg{
+    display: block;
+  
+width: 150px;
+background-color:rgb(63, 62, 62) ;
+border-radius: 50%;
+
+}
+.profileList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    width: 100%;
+    border-top: 2px solid gray;
+    overflow: hidden;
+
+}
+
+.profileItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #d6d6d6;
+        /* Колір фону */
+        color: #333;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+
+}
+.profileItem:not(:last-child){
+    border-right: 2px solid gray;
+}
+.profileCount{
+font-size: 24px;
+    /* Розмір шрифту для числа */
+    font-weight: bold;
+    color: #1d1f1e;
+    /* Колір числа */
+}
+.profilelistName{
+    font-size: 24px;
+}
+
+.profileName{
+    font-size: 24px;
+        /* Розмір шрифту для числа */
+        font-weight: bold;
+        color: #1d1f1e;
+}
+.profileTag{
+    font-size: 24px;
+    color: #919191;
+}
+.profileCity{
+    font-size: 24px;
+        color: #919191;
+        margin-bottom: 15px;
+}
+

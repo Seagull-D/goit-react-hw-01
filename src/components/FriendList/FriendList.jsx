@@ -5,7 +5,7 @@ export default function FriendList({ friends }) {
 
     return (<ul className={css.frList}>
         {friends.map((friend) => {
-            console.log(friend)
+        
             return <li className={css.frItem} key={friend.id}>
   <img className={css.frImg} src={friend.avatar} alt={friend.name} width="48" />
   <p className={css.frText}>{friend.name}</p>

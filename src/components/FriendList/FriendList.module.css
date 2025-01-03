@@ -5,29 +5,4 @@
     justify-content: space-between;
     margin-bottom: 70px;
 }
-.frItem{
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 10px ;
-    width: 130px;
-    max-height:240px ;
-    justify-content: center;
-    align-items: center;
-}
-.frImg{
-    display: block;
-    width: 80px;
-   
-}
-.frText{
-    font-size: 24px;
-}
-.frOnline{
-    color: green;
-}
-.frOffline{
-    color: red;
-}
+
